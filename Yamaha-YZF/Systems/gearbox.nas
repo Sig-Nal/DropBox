@@ -65,11 +65,11 @@ var loop = func {
 	var brake_ctrl_right = getprop("/controls/gear/brake-right") or 0;
 	
 	# second possibility for clutch control backspace key is setting in the BMW-S-1000-RR-set.xml
-	if(secclutchcontrol.getBoolValue()){
-		clutch.setValue(1);
-	}else{
-		clutch.setValue(0);
-	}
+#	if(secclutchcontrol.getBoolValue()){
+#		clutch.setValue(1);
+#	}else{
+#		clutch.setValue(0);
+#	}
 	
 	gspeed = getprop("/instrumentation/airspeed-indicator/indicated-speed-kt") or 0;
 	
