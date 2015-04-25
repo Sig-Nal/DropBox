@@ -343,7 +343,18 @@
 	  <pitch-deg>75</pitch-deg>
 	</offsets>
 	</model>
-	
+  <model>
+    <path>Aircraft/Yamaha-YZF/Models/Lights/RedLight.xml</path>  <!--  or  rednav.xml  -->
+	<name>Stop</name>
+    <offsets>
+      <x-m> 1.25 </x-m>
+      <y-m> 0.085 </y-m>
+      <z-m> -1.1 </z-m>
+      <!--heading-deg>90</heading-deg-->
+      <!--pitch-deg> -38 </pitch-deg-->
+    </offsets>
+  </model>
+
 	<animation>
 	  <type>select</type>
 	  <object-name>lights</object-name>

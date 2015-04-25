@@ -618,17 +618,17 @@
   </animation>
 
 
-  <model>
+  <!--model>
 	<name>Stop</name>
-    <path>Aircraft/Yamaha-YZF/Models/Lights/RedLight.xml</path>  <!--  or  rednav.xml  -->
-    <offsets>
+    <path>Aircraft/Yamaha-YZF/Models/Lights/RedLight.xml</path-->  <!--  or  rednav.xml  -->
+    <!--offsets>
       <x-m> 1 </x-m>
       <y-m> 0.0 </y-m>
       <z-m> 0.88 </z-m>
-      <heading-deg>90</heading-deg>
+      <heading-deg>90</heading-deg-->
       <!--pitch-deg> -38 </pitch-deg-->
-    </offsets>
-  </model>
+    <!--/offsets>
+  </model-->
 
   <!--model>
 	<name>Beam</name>
