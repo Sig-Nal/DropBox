@@ -333,6 +333,76 @@
       </condition>
     </animation>
 	
+      <!--  LIGHTS  -->
+  <model>
+    <path>Aircraft/Yamaha-YZF/Models/Lights/flash.xml</path>
+	<name>lights</name>
+     <condition>
+      <and>
+         <property>/sim/rendering/rembrandt/enabled</property>
+      </and>
+     </condition>
+    <offsets>
+      <x-m>       -0.35 </x-m>
+      <y-m>        0.08 </y-m>
+      <z-m>        0.05 </z-m>
+      <!--heading-deg>   180 </heading-deg-->
+      <pitch-deg>     38 </pitch-deg>
+      <!--roll-deg>      90 </roll-deg-->
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Yamaha-YZF/Models/Lights/beam.xml</path>
+	<name>lights</name>
+     <condition>
+      <and>
+         <property>/sim/rendering/rembrandt/enabled</property>
+      </and>
+     </condition>
+    <offsets>
+      <x-m>          -50.0 </x-m>
+      <y-m>           0.0 </y-m>
+      <z-m>           150.0 </z-m>
+      <heading-deg>   0 </heading-deg>
+      <pitch-deg>    1 </pitch-deg>
+      <roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Yamaha-YZF/Models/Lights/beam.xml</path>
+	<name>lights</name>
+     <condition>
+      <and>
+         <property>/sim/rendering/rembrandt/enabled</property>
+      </and>
+     </condition>
+    <offsets>
+      <x-m>          -20.0 </x-m>
+      <y-m>           0.0 </y-m>
+      <z-m>           150.0 </z-m>
+      <heading-deg>   0 </heading-deg>
+      <pitch-deg>    -1 </pitch-deg>
+      <roll-deg>0</roll-deg>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Yamaha-YZF/Models/Lights/rearlight.xml</path>
+	<name>lights</name>
+     <condition>
+         <property>/sim/rendering/rembrandt/enabled</property>
+     </condition>
+    <offsets>
+      <x-m> 1.175 </x-m>
+      <y-m> 0.08 </y-m>
+      <z-m> -1.05 </z-m>
+      <heading-deg>180</heading-deg>
+      <pitch-deg> -38 </pitch-deg>
+    </offsets>
+  </model>
+
 	<model>
 	<path>Aircraft/Yamaha-YZF/Models/Lights/lightcone-mini.xml</path>
 	<name>lights</name>
@@ -344,12 +414,12 @@
 	</offsets>
 	</model>
   <model>
-    <path>Aircraft/Yamaha-YZF/Models/Lights/RedLight.xml</path>  <!--  or  rednav.xml  -->
+    <path>Aircraft/Yamaha-YZF/Models/Lights/stop.xml</path>  <!--  or  rednav.xml  -->
 	<name>Stop</name>
     <offsets>
-      <x-m> 1.25 </x-m>
+      <x-m> 1.17 </x-m>
       <y-m> 0.085 </y-m>
-      <z-m> -1.1 </z-m>
+      <z-m> -1.07 </z-m>
       <!--heading-deg>90</heading-deg-->
       <!--pitch-deg> -38 </pitch-deg-->
     </offsets>
@@ -365,7 +435,8 @@
 			<value>1.4</value>
 		</greater-than>
 	 </condition>
-	</animation>
+	</animation>      <!--  END OF LIGHTS  -->
+
 	
     <animation>
         <type>pick</type>
