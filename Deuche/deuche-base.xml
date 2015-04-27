@@ -100,7 +100,7 @@
       <roof type="bool">false</roof>
     </gear>
     <switches>
-      <landing-light type="bool"> false </landing-light>
+      <landing-light type="bool"> true </landing-light>
     </switches>
   </controls>
 
