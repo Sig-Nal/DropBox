@@ -334,6 +334,17 @@
     </animation>
 	
       <!--  LIGHTS  -->
+	<model>
+	<path>Aircraft/Yamaha-YZF/Models/Lights/lightcone-mini.xml</path>
+	<name>lights</name>
+	<offsets>   
+	  <x-m> 0.25</x-m>
+	  <y-m> 0.03</y-m>
+	  <z-m> 0.08</z-m>
+	  <pitch-deg>75</pitch-deg>
+	</offsets>
+	</model>
+
   <model>
     <path>Aircraft/Yamaha-YZF/Models/Lights/flash.xml</path>
 	<name>lights</name>
@@ -403,16 +414,6 @@
     </offsets>
   </model>
 
-	<model>
-	<path>Aircraft/Yamaha-YZF/Models/Lights/lightcone-mini.xml</path>
-	<name>lights</name>
-	<offsets>   
-	  <x-m> 0.25</x-m>
-	  <y-m> 0.03</y-m>
-	  <z-m> 0.08</z-m>
-	  <pitch-deg>75</pitch-deg>
-	</offsets>
-	</model>
   <model>
     <path>Aircraft/Yamaha-YZF/Models/Lights/stop.xml</path>  <!--  or  rednav.xml  -->
 	<name>Stop</name>

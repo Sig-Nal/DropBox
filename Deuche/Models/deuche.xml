@@ -1630,9 +1630,9 @@
   </model>
 
   <model>
-    <path>Aircraft/Deuche/Models/lights/Rflash.xml</path>
+    <path>Aircraft/Deuche/Models/lights/rearlight.xml</path>
     <offsets>
-      <x-m>  1.842 </x-m>
+      <x-m>  1.852 </x-m>
       <y-m> -0.350 </y-m>
       <z-m> -0.190 </z-m>
       <heading-deg> 180 </heading-deg>
@@ -1640,10 +1640,10 @@
   </model>
 
   <model>
-    <path>Aircraft/Deuche/Models/lights/Rflash.xml</path>
+    <path>Aircraft/Deuche/Models/lights/rearlight.xml</path>
     <offsets>
-      <x-m>  1.842 </x-m>
-      <y-m>  0.350 </y-m>
+      <x-m>  1.852 </x-m>
+      <y-m>  0.355 </y-m>
       <z-m> -0.190 </z-m>
       <heading-deg> 180 </heading-deg>
     </offsets>
@@ -1690,7 +1690,7 @@
   <model>
     <path>Aircraft/Deuche/Models/lights/stop.xml</path>
     <offsets>
-      <x-m>  1.842 </x-m>
+      <x-m>  1.852 </x-m>
       <y-m> -0.430 </y-m>
       <z-m> -0.140 </z-m>
       <heading-deg> 180 </heading-deg>
@@ -1700,7 +1700,7 @@
   <model>
     <path>Aircraft/Deuche/Models/lights/stop.xml</path>
     <offsets>
-      <x-m>  1.842 </x-m>
+      <x-m>  1.852 </x-m>
       <y-m>  0.430 </y-m>
       <z-m> -0.140 </z-m>
       <heading-deg> 180 </heading-deg>
