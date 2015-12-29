@@ -35,7 +35,7 @@
   
   
   <view n="0">
-			<name>Instructor view</name>
+			<name>Co-Pilot view</name>
 			<internal archive="y">true</internal>
 			<type>lookfrom</type>
 			<config>
@@ -208,7 +208,7 @@
     
 		 <lightning>
    <script>
-   props.globals.getNode("canopy/position-norm",1).setValue(1);   
+   props.globals.getNode("canopy/position-norm",1).setValue(0);   
    props.globals.getNode("sim/damage/damage-zones/engine[0]/damage-norm",1).setValue(0);
    props.globals.getNode("sim/damage/damage-zones/engine[1]/damage-norm",1).setValue(0);
    props.globals.getNode("gear/gear[0]/rollspeed-ms",1).setValue(0);
@@ -226,6 +226,7 @@
    props.globals.getNode("sim/multiplay/generic/int[4]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[5]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[7]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[10]",1).setValue(0);
   </script>
   </lightning>
     
