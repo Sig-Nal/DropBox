@@ -272,6 +272,8 @@
 				<int n="6" alias="/engines/engine[1]/state" />
 				<int n="7" alias="/sim/crashed" />
 				<int n="8" alias="/controls/armament/trigger-GSh-23" />
+			    <int n="9" alias="/lightpack/landing-lights-intensity"/>
+
 				<float n="0" alias="/surface-positions/left-taileron-pos-norm"/>
 				<float n="1" alias="/surface-positions/right-taileron-pos-norm"/>
 				<float n="2" alias="/surface-positions/left-flap-pos-norm"/>
@@ -279,6 +281,7 @@
 				<float n="4" alias="/sim/model/nozzle-animation"/>
 				<float n="8" alias="/engines/engine[0]/afterburner" /> <!-- Reheat left engine -->
 				<float n="9" alias="/engines/engine[1]/afterburner" /> <!-- Reheat right engine -->
+ 			    <float n="10" alias="/controls/canopy/position-norm"/>
 			</generic>
 		</multiplay>
     
