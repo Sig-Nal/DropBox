@@ -282,7 +282,13 @@
 				<float n="4" alias="/sim/model/nozzle-animation"/>
 				<float n="8" alias="/engines/engine[0]/afterburner" /> <!-- Reheat left engine -->
 				<float n="9" alias="/engines/engine[1]/afterburner" /> <!-- Reheat right engine -->
- 			    <float n="10" alias="/controls/canopy/position-norm"/>
+ 			    <float n="10" alias="/canopy/position-norm"/>
+ 			    <float n="11" alias="/controls/gear/brake-parking"/>
+ 			    <float n="12" alias="/consumables/fuel/tank/level-lbs"/>
+ 			    <float n="13" alias="/systems/electrical/volts"/>
+ 			    <float n="14" alias="/velocities/mach"/>
+ 			    <float n="15" alias="/instrumentation/airspeed-indicator/indicated-speed-kt"/>
+ 			    <float n="16" alias="/velocities/airspeed-kt"/>
 			</generic>
 		</multiplay>
     

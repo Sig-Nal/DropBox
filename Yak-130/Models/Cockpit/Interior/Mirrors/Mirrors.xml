@@ -17,7 +17,7 @@
         <type>rotate</type>
         <object-name>Mirrors</object-name>
          <object-name>Bezels</object-name>
-         <property>/canopy/position-norm</property>
+       <property>sim/multiplay/generic/float[10]</property>
          <factor>95</factor>
          <axis>
              <x1-m>-0.5467</x1-m>

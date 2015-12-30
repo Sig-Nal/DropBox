@@ -108,7 +108,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>Fuel.001</object-name>
-		<property>consumables/fuel/tank/level-lbs</property>
+		<property>sim/multiplay/generic/float[12]</property>
 		<factor>0.0001</factor>
 		<step>1000</step>
 		<axis>
@@ -123,7 +123,7 @@
 		<object-name>Fuel.001</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>consumables/fuel/tank/level-lbs</property>
+  <property>sim/multiplay/generic/float[12]</property>
 				<value>1000</value>
 			</greater-than-equals>
 		</condition>
@@ -132,7 +132,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>Fuel.002</object-name>
-		<property>consumables/fuel/tank/level-lbs</property>
+		<property>sim/multiplay/generic/float[12]</property>
 		<factor>0.001</factor>
 		<step>100</step>
 		<axis>
@@ -147,7 +147,7 @@
 		<object-name>Fuel.002</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>consumables/fuel/tank/level-lbs</property>
+				<property>sim/multiplay/generic/float[12]</property>
 				<value>100</value>
 			</greater-than-equals>
 		</condition>
@@ -156,7 +156,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>Fuel.003</object-name>
-		<property>consumables/fuel/tank/level-lbs</property>
+		<property>sim/multiplay/generic/float[12]</property>
 		<factor>0.01</factor>
 		<step>10</step>
 		<axis>
@@ -171,7 +171,7 @@
 		<object-name>Fuel.003</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>consumables/fuel/tank/level-lbs</property>
+				<property>sim/multiplay/generic/float[12]</property>
 				<value>10</value>
 			</greater-than-equals>
 		</condition>
@@ -180,7 +180,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>Fuel.004</object-name>
-		<property>consumables/fuel/tank/level-lbs</property>
+		<property>sim/multiplay/generic/float[12]</property>
 		<factor>0.1</factor>
 		<step>1</step>
 		<axis>
@@ -195,7 +195,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>LVoltNeedle</object-name>
-		<property>systems/electrical/volts</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<interpolation>
 			<entry><ind> 0 </ind><dep>   0 </dep></entry>
 			<entry><ind> 20 </ind><dep>  45 </dep></entry>
@@ -218,7 +218,7 @@
 	<animation>
 		<type>rotate</type>
 		<object-name>RVoltNeedle</object-name>
-		<property>systems/electrical/volts</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<interpolation>
 			<entry><ind> 0 </ind><dep>   0 </dep></entry>
 			<entry><ind> 20 </ind><dep>  45 </dep></entry>
@@ -241,7 +241,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>RVolt.001</object-name>
-		<property>systems/electrical/volts</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<factor>0.001</factor>
 		<step>100</step>
 		<axis>
@@ -256,7 +256,7 @@
 		<object-name>RVolt.001</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>systems/electrical/volts</property>
+				<property>sim/multiplay/generic/float[13]</property>
 				<value>100</value>
 			</greater-than-equals>
 		</condition>
@@ -265,7 +265,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>RVolt.002</object-name>
-		<property>systems/electrical/volts</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<factor>0.01</factor>
 		<step>10</step>
 		<axis>
@@ -280,7 +280,7 @@
 		<object-name>RVolt.002</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>systems/electrical/volts</property>
+				<property>sim/multiplay/generic/float[13]</property>
 				<value>10</value>
 			</greater-than-equals>
 		</condition>
@@ -289,7 +289,7 @@
     <animation>
 		<type>textranslate</type>
 		<object-name>RVolt.003</object-name>
-		<property>systems/electrical/volts</property>
+		<property>sim/multiplay/generic/float[13]</property>
 		<factor>1</factor>
 		<step>0.1</step>
 		<axis>
@@ -302,7 +302,7 @@
 	    <animation>
 			<type>textranslate</type>
 			<object-name>LVolt.001</object-name>
-			<property>systems/electrical/volts</property>
+			<property>sim/multiplay/generic/float[13]</property>
 			<factor>0.001</factor>
 			<step>100</step>
 			<axis>
@@ -317,7 +317,7 @@
 			<object-name>LVolt.001</object-name>
 			<condition>
 				<greater-than-equals>
-					<property>systems/electrical/volts</property>
+					<property>sim/multiplay/generic/float[13]</property>
 					<value>100</value>
 				</greater-than-equals>
 			</condition>
@@ -326,7 +326,7 @@
 	    <animation>
 			<type>textranslate</type>
 			<object-name>LVolt.002</object-name>
-			<property>systems/electrical/volts</property>
+			<property>sim/multiplay/generic/float[13]</property>
 			<factor>0.01</factor>
 			<step>10</step>
 			<axis>
@@ -341,7 +341,7 @@
 			<object-name>LVolt.002</object-name>
 			<condition>
 				<greater-than-equals>
-					<property>systems/electrical/volts</property>
+					<property>sim/multiplay/generic/float[13]</property>
 					<value>10</value>
 				</greater-than-equals>
 			</condition>
@@ -350,7 +350,7 @@
 	    <animation>
 			<type>textranslate</type>
 			<object-name>LVolt.003</object-name>
-			<property>systems/electrical/volts</property>
+			<property>sim/multiplay/generic/float[13]</property>
 			<factor>1</factor>
 			<step>0.1</step>
 			<axis>
@@ -729,7 +729,7 @@
         <object-name>GB</object-name>
         <condition>
             <equals>
-                <property>controls/gear/brake-parking</property>
+  <property>sim/multiplay/generic/float[11]</property>
                 <value>true</value>
             </equals>
         </condition>
@@ -999,8 +999,8 @@
         <object-name>Canopy</object-name>
         <condition>
             <equals>
-				<property>/canopy/position-norm</property>
-				<value>1</value>
+					<property>sim/multiplay/generic/float[10]</property>
+				<value>0</value>
             </equals>
         </condition>
     </animation>

@@ -302,7 +302,7 @@
     <animation>
         <type>rotate</type>
         <object-name>MachNeedle</object-name>
-        <property>velocities/mach</property>
+        <property>sim/multiplay/generic/float[14]</property>
         <interpolation>
             <entry><ind>0.0</ind><dep>0</dep></entry>
             <entry><ind>0.1</ind><dep>30</dep></entry>
@@ -355,7 +355,7 @@
     <animation>
         <type>textranslate</type>
         <object-name>asinum100</object-name>
-        <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+        <property>/sim/multiplay/generic/float[15]</property>
         <factor>0.001</factor>
         <step>100</step>
         <axis>
@@ -370,7 +370,7 @@
 		<object-name>asinum100</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+				<property>/sim/multiplay/generic/float[15]</property>
 				<value>100</value>
 			</greater-than-equals>
 		</condition>
@@ -379,7 +379,7 @@
     <animation>
         <type>textranslate</type>
         <object-name>asinum10</object-name>
-        <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+        <property>/sim/multiplay/generic/float[15]</property>
         <factor>0.01</factor>
         <step>10</step>
         <axis>
@@ -394,7 +394,7 @@
 		<object-name>asinum10</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+				<property>/sim/multiplay/generic/float[15]</property>
 				<value>10</value>
 			</greater-than-equals>
 		</condition>
@@ -403,7 +403,7 @@
     <animation>
         <type>textranslate</type>
         <object-name>asinum1</object-name>
-        <property>/instrumentation/airspeed-indicator/indicated-speed-kt</property>
+        <property>/sim/multiplay/generic/float[15]</property>
         <factor>0.1</factor>
         <step>1</step>
         <axis>
@@ -418,7 +418,7 @@
     <animation>
         <type>textranslate</type>
         <object-name>tasnum100</object-name>
-        <property>velocities/airspeed-kt</property>
+        <property>sim/multiplay/generic/float[16]</property>
         <factor>0.001</factor>
         <step>100</step>
         <axis>
@@ -433,7 +433,7 @@
 		<object-name>tasnum100</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>velocities/airspeed-kt</property>
+				<property>sim/multiplay/generic/float[16]</property>
 				<value>100</value>
 			</greater-than-equals>
 		</condition>
@@ -442,7 +442,7 @@
     <animation>
         <type>textranslate</type>
         <object-name>tasnum10</object-name>
-        <property>velocities/airspeed-kt</property>
+        <property>sim/multiplay/generic/float[16]</property>
         <factor>0.01</factor>
         <step>10</step>
         <axis>
@@ -457,7 +457,7 @@
 		<object-name>tasnum10</object-name>
 		<condition>
 			<greater-than-equals>
-				<property>velocities/airspeed-kt</property>
+				<property>sim/multiplay/generic/float[16]</property>
 				<value>10</value>
 			</greater-than-equals>
 		</condition>
@@ -466,7 +466,7 @@
     <animation>
         <type>textranslate</type>
         <object-name>tasnum1</object-name>
-        <property>velocities/airspeed-kt</property>
+        <property>sim/multiplay/generic/float[16]</property>
         <factor>0.1</factor>
         <step>1</step>
         <axis>
