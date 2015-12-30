@@ -70,7 +70,7 @@
             </product>
             <value>-1</value>
           </sum>
-          <property>lightpack/probe-light-intensity</property>
+          <property>sim/multiplay/generic/int[13]</property>
         </product>
       </expression>
     </dim-factor>

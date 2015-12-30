@@ -30,10 +30,13 @@
    <path>/Models/Yak-130_copilot.xml</path>
   </model>
 
+		<startup>
+			<splash-texture>Aircraft/Yak-130/Splash2.png</splash-texture>
+		</startup>
+
+
   <!-- Views -->
-  
-  
-  
+    
   <view n="0">
 			<name>Co-Pilot view</name>
 			<internal archive="y">true</internal>
@@ -234,7 +237,13 @@
    props.globals.getNode("sim/multiplay/generic/int[4]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[5]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[7]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[9]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[10]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[11]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[12]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[13]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[14]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[15]",1).setValue(0);
   </script>
   </lightning>
     

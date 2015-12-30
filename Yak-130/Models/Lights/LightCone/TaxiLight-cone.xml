@@ -10,7 +10,7 @@
       <sum>
         <product>
           <product>
-            <property>lightpack/taxi-light-intensity</property>
+            <property>sim/multiplay/generic/int[11]</property>
             <value>-1</value>
           </product>
           <sum>

@@ -18,7 +18,7 @@
     <object-name>ProbeLightRemb</object-name>
     <condition>
       <and>
-        <property>lightpack/probe-light-intensity</property>
+        <property>sim/multiplay/generic/int[13]</property>
         <not><property>sim/crashed</property></not>
       </and>
     </condition>

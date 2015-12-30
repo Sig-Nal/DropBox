@@ -274,6 +274,11 @@
 				<int n="8" alias="/controls/armament/trigger-GSh-23" />
 			    <int n="9" alias="/lightpack/landing-lights-intensity"/>
  			    <int n="10" alias="/controls/canopy/canopy-switch"/>
+ 			    <int n="11" alias="/lightpack/taxi-light-intensity"/>
+ 			    <int n="12" alias="/lightpack/white-light-intensity"/>
+ 			    <int n="13" alias="/lightpack/probe-light-intensity"/>
+ 			    <int n="14" alias="/lightpack/nav-lights-intensity"/>
+ 			    <int n="15" alias="/lightpack/beacon-state/state"/>
 
 				<float n="0" alias="/surface-positions/left-taileron-pos-norm"/>
 				<float n="1" alias="/surface-positions/right-taileron-pos-norm"/>

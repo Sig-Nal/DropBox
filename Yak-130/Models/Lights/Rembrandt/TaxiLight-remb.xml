@@ -69,7 +69,7 @@
             </product>
             <value>-1</value>
           </sum>
-          <property>lightpack/taxi-light-intensity</property>
+          <property>sim/multiplay/generic/int[11]</property>
         </product>
       </expression>
     </dim-factor>

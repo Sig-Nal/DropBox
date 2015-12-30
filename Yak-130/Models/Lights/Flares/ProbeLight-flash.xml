@@ -49,7 +49,7 @@
   <animation>
      <type>scale</type>
      <object-name>flash</object-name>
-     <property>lightpack/probe-light-intensity</property>
+     <property>sim/multiplay/generic/int[13]</property>
   </animation>
 
   <animation>

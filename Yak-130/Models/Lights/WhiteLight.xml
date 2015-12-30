@@ -18,7 +18,7 @@
     <object-name>WhiteLightRemb</object-name>
     <condition>
       <and>
-        <property>lightpack/white-light-intensity</property>
+        <property>sim/multiplay/generic/int[12]</property>
         <not><property>sim/crashed</property></not>
       </and>
     </condition>

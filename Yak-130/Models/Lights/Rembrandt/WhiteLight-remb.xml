@@ -69,7 +69,7 @@
             </product>
             <value>-1</value>
           </sum>
-          <property>lightpack/white-light-intensity</property>
+          <property>sim/multiplay/generic/int[12]</property>
         </product>
       </expression>
     </dim-factor>
