@@ -25,7 +25,7 @@
     <condition>
       <and>
         <property>sim/multiplay/generic/int[9]</property>
-        <not><property>sim/crashed</property></not>
+        <not><property>sim/multiplay/generic/int[16]</property></not>
       </and>
     </condition>
   </animation>

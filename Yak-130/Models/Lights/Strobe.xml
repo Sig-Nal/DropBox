@@ -19,7 +19,7 @@
     <condition>
       <and>
         <property>lightpack/strobe-state/state</property>
-        <not><property>sim/crashed</property></not>
+        <not><property>sim/multiplay/generic/int[16]</property></not>
       </and>
     </condition>
   </animation>

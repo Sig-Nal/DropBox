@@ -467,8 +467,8 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
     
     <animation>
         <type>select</type>
-        <object-name>Pilot</object-name>
-        <object-name>Co-pilot</object-name>
+        <!--object-name>Pilot</object-name-->
+        <!--object-name>Co-pilot</object-name-->
         <object-name>WindGlass</object-name>
         <object-name>Glass</object-name>
 		<condition>

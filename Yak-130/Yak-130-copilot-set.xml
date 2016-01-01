@@ -244,6 +244,7 @@
    props.globals.getNode("sim/multiplay/generic/int[13]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[14]",1).setValue(0);
    props.globals.getNode("sim/multiplay/generic/int[15]",1).setValue(0);
+   props.globals.getNode("sim/multiplay/generic/int[16]",1).setValue(0);
   </script>
   </lightning>
     

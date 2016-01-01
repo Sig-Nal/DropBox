@@ -279,6 +279,7 @@
  			    <int n="13" alias="/lightpack/probe-light-intensity"/>
  			    <int n="14" alias="/lightpack/nav-lights-intensity"/>
  			    <int n="15" alias="/lightpack/beacon-state/state"/>
+ 			    <int n="16" alias="/sim/crashed"/>
 
 				<float n="0" alias="/surface-positions/left-taileron-pos-norm"/>
 				<float n="1" alias="/surface-positions/right-taileron-pos-norm"/>
