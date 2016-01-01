@@ -467,8 +467,8 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
     
     <animation>
         <type>select</type>
-        <!--object-name>Pilot</object-name-->
-        <!--object-name>Co-pilot</object-name-->
+        <object-name>Pilot</object-name>
+        <object-name>Co-pilot</object-name>
         <object-name>WindGlass</object-name>
         <object-name>Glass</object-name>
 		<condition>
@@ -751,7 +751,7 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
 		 <object-name>Co-pilot</object-name>
 		 <object-name>Seat1</object-name>
 		 <object-name>Seat2</object-name>
-		 <property>controls/eject</property>
+		 <property>sim/multiplay/generic/float[17]</property>
 		 <factor>20</factor>
 		 <center>
 			 <x-m>0</x-m>
@@ -770,7 +770,7 @@ var listenMpDecode = setlistener(mpPath~"sim/multiplay/generic/string["~stringIn
 		 <object-name>Glass</object-name>
 		 <condition>
 			 <not>
-				 <property>controls/eject</property>
+				 <property>sim/multiplay/generic/float[17]</property>
 			 </not>
 		 </condition>
 	 </animation>
