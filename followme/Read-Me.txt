@@ -1,0 +1,39 @@
+#######################################################################################################
+
+Arcraft development for Flightgear by Herbert Wagner 2014-2016                          Model: followme
+
+This file is licenced under the terms mentioned in this file.
+Everything is GNU GPLv2+ License.
+
+Aircraft-Name: followme
+
+Keys:
+
+m - toggle direction
+
+s - autostart
+
+q - horn
+
+Have fun!
+
+The original flightgear version was from: Torsten Dreyer, Gijs de Rooy
+
+Update to version 1.5 by Herbert Wagner 01/2016: 
+           -placecards for selecting messages in the panel
+           -steeringwheel animation fixed
+           -all gears in MP-mode fixed
+           -Sign bigger for better visibility from aircraft
+           -JSBsim fake engine added with more speed and more realism
+           -Splash and thumbnail added
+           -door animations in MP-mode fixed
+           -FDM now not depending on senecall
+           -switches for lights added
+           -engine, drifting, doors and starting sound added
+           -MP hanger function fixed (open doors in MP-mode)
+           -Killer grass elimination
+           -additional Drifting effects for snow, grass, sand and normal runway surface
+           -some more Panel addings from Sig-Nal
+           -red and orange color added by Sig-Nal
+
+#######################################################################################################
