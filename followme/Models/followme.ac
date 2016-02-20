@@ -7,7 +7,7 @@ MATERIAL "Material_3" rgb 0.2 0.4 0.4 amb 0.333333 0.333333 0.333333 emis 0 0 0 
 MATERIAL "Material_5" rgb 0.992157 0.945098 0 amb 0.645752 0.645752 0.645752 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
 MATERIAL "followmeoutside" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
 MATERIAL "Material_11" rgb 0 0 0 amb 0 0 0 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
-MATERIAL "Material_12" rgb 0.8 0.8 0.8 amb 0.8 0.8 0.8 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
+MATERIAL "Material_12" rgb 0.8 0.8 0.8 amb 0.4 0.4 0.4 emis 0.04 0.04 0.04 spec 0.33 0.33 0.33 shi 32 trans 0
 MATERIAL "DefaultWhite.002" rgb 1 1 1 amb 1 1 1 emis 0 0 0 spec 1 0.969 0.847 shi 64 trans 0.92
 MATERIAL "ac3dmat1" rgb 0 0 0 amb 0 0 0 emis 1 1 1 spec 0 0 0 shi 60 trans 0.92
 MATERIAL "Material_4" rgb 1 0.8 0.2 amb 1 0.8 0.2 emis 0 0 0 spec 0.33 0.33 0.33 shi 32 trans 0
