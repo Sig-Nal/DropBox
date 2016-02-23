@@ -489,10 +489,57 @@
  <type>select</type>
  <object-name>Cone</object-name>
  <object-name>Cone-texture</object-name>
+         <condition>
+          <and>
+                <not>
+                    <property>/sim/rendering/rembrandt/enabled</property>
+                </not>
+          </and>
+         </condition>
  <condition>
   <property>sim/multiplay/generic/int[4]</property>
  </condition>
 </animation>
+
+  <!-- Rembrand light -->
+
+	<model>
+		<path>Aircraft/followme/Models/Instruments/Lights/Al3-Rembrandt_Lights.xml</path>
+		<name>head-light</name>
+         <condition>
+          <and>
+                    <property>sim/rendering/rembrandt/enabled</property>
+                    <property>sim/multiplay/generic/int[4]</property>
+          </and>
+         </condition>
+		<offsets>
+            <x-m> 2.10 </x-m>
+            <y-m> 0.00 </y-m>
+            <z-m> 2.0 </z-m>
+			<pitch-deg>0</pitch-deg>
+			<heading-deg>2.5</heading-deg>
+		</offsets>
+	</model>
+
+	<!--model>
+		<path>Aircraft/followme/Models/Instruments/Lights/headlight-taxi.xml</path>
+		<name>head-light</name>
+         <condition>
+          <and>
+                    <property>sim/rendering/rembrandt/enabled</property>
+                    <property>sim/multiplay/generic/int[4]</property>
+          </and>
+         </condition>
+		<offsets>
+            <x-m> -5.13 </x-m>
+            <y-m>-1.80 </y-m>
+            <z-m>-0.82 </z-m>
+			<pitch-deg>-5</pitch-deg>
+			<heading-deg>2.5</heading-deg>
+		</offsets>
+	</model-->
+
+
 
 <animation>
  <type>select</type>

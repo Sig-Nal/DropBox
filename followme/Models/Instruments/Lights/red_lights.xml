@@ -28,13 +28,13 @@
    </condition> 
  </animation>
 
-<!--effect>
+<effect>
  <inherits-from>Effects/model-transparent</inherits-from>
  <object-name>red_lights</object-name>
           <condition>
              <property>sim/rendering/rembrandt/enabled</property>
          </condition>
-  </effect-->      
+  </effect>      
 
 <animation>
  <type>material</type>
